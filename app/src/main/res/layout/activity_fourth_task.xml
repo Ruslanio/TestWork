@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruslanio.testwork.task4.FourthTaskActivity">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:textSize="20sp"
+        android:hint="Enter number here..."
+        android:maxEms="5"
+        android:inputType="textNoSuggestions"
+        android:digits="1234567890-_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

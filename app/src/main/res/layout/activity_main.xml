@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.ruslanio.testwork.MainActivity">
+
+    <Button
+        android:id="@+id/btn_first_task"
+        android:text="first task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_second_task"
+        android:text="second task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_first_task"/>
+
+    <Button
+        android:id="@+id/btn_third_task"
+        android:text="third task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_second_task"/>
+
+    <Button
+        android:id="@+id/btn_fourth_task"
+        android:text="fourth task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_third_task"/>
+
+
+</RelativeLayout>

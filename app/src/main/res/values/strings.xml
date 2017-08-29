@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestWork</string>
+
+    <string-array name="choices">
+        <item>Accept</item>
+        <item>Decline</item>
+        <item>Later</item>
+    </string-array>
+</resources>
